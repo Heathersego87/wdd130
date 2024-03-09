@@ -8,8 +8,8 @@ body {
 :root {
     --primary-color: charcoal #2F3E46;
     --secondary-color: cambridgeblue #84A98C;
-    --accent1-color: hookersgreen #52796F;
-    --accent2-color: ashgrey #cad2c5;
+    --accent-1-color: hookersgreen #52796F;
+    --accent-2-color: ashgrey #cad2c5;
 
     --heading-font: 'Open Sans', sans-serif;
     --paragraph-font: 'Ojuju', sans-serif;
