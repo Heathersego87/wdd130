@@ -11,8 +11,8 @@ body {
     --accent-1-color: #52796F;
     --accent-2-color: #cad2c5;
 
-    --heading-font: "Open Sans", sans-serif;
-    --paragraph-font: "Ojuju", sans-serif;
+    --heading-font: "Open Sans", serif;
+    --paragraph-font: "Ojuju", serif;
 
     --nav-background-color: #cad2ca;
     --nav-link-color: #84a98c;
@@ -33,6 +33,11 @@ h1,h2,h3,h4,h5,h6 {
 
 p {
     padding: 25px;
+}
+
+.header{
+    padding:20px;
+    background-color:var(--accent1-color);
 }
 
 nav {
