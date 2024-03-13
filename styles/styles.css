@@ -70,3 +70,6 @@ aside h2 {
     top: 47px;
     left: 150px;
 }
+aside {
+    position: relative;
+}
