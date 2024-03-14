@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap')
+
+:root {
+    --primary-color: #2F3E46;
+    --secondary-color: #84A98C;
+    --accent1-color: #52796F;
+    --accent2-color: #cad2c5;
+
+    --heading-font: "Open Sans", serif;
+    --paragraph-font: "Ojuju", serif;
+
+    --nav-background-color: #cad2ca;
+    --nav-link-color: #84a98c;
+    --nav-hover-link-color: #52796f;
+    --nav-hover-background-color: #2f3e46;
+}
+
+.hero {
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+}
+
+article {
+    position: absolute;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
