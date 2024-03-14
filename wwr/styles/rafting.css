@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap')
 
-:root {
-    --primary-color: black;
-}
 
 h1,h2 {
     font-family: var(--heading-font);
@@ -29,3 +26,8 @@ article {
     display: block;
     width: 100%;
     height: auto;
+}
+
+:root {
+    --primary-color: black;
+}
