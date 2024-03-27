@@ -165,3 +165,10 @@ figure {
   footer p {
     text-align:center;
   }
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 30px;
+    background-color: grey;
+    padding: 10px
+}
