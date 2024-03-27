@@ -134,11 +134,34 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
+.adventure{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.adventure figure img{
+    width: 100%;
+}
 figure {
     border: thin #c0c0c0 solid;
-    display: flex;
-    flex-flow: column;
+    /* display: flex; */
+    /* flex-flow: column; */
     padding: 10px;
     max-width: 350px;
     margin: auto;
+  }
+  .socials{
+    display:flex;
+    position:absolute;
+    top: 15px;
+    right: 10px;
+  }
+  .socials img{
+    width: 40px;
+  }
+  footer{
+    position:relative
+  }
+  footer p {
+    text-align:center;
   }
