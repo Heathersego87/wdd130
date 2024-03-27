@@ -49,7 +49,7 @@ article {
     top: 240px;
 }
 .hero > h1 {
-    color: white;
+    color: whitesmoke;
     position: absolute;
     left: 50px;
     top: 10px;
@@ -125,16 +125,20 @@ h2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-h2 {
+
+figure {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-row: 1/2
+}
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 figure {
-    figure {
-        border: thin #c0c0c0 solid;
-        display: flex;
-        flex-flow: column;
-        padding: 5px;
-        max-width: 220px;
-        margin: auto;
-}
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 10px;
+    max-width: 350px;
+    margin: auto;
+  }
