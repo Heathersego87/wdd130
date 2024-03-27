@@ -86,9 +86,11 @@ header, .grid, footer {
 .grid {
     display: grid;
     align-items: center;
+    grid-template-columns: 1fr 1fr;
 }
 
 main {
+    display:grid;
     grid-column: 2/3;
     margin: 1rem;
 }
